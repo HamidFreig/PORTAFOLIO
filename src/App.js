@@ -3,6 +3,7 @@ import SobreMi from "./components/SobreMi";
 import Inicio from "./components/Inicio";
 import Proyectos from "./components/Proyectos";
 import Contacto from "./components/Contacto";
+import Experiencia from "./components/Experiencia";
 
 function App() {
   return (
@@ -32,13 +33,22 @@ function App() {
               href="#seccion3"
               className="transition-transform transform duration-300 group-hover:-translate-y-2"
             >
-              Proyectos
+              Experiencia
             </a>
             <span className="absolute left-0 right-0 h-0.5 bg-white transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
           </li>
           <li className="relative group">
             <a
               href="#seccion4"
+              className="transition-transform transform duration-300 group-hover:-translate-y-2"
+            >
+              Proyectos
+            </a>
+            <span className="absolute left-0 right-0 h-0.5 bg-white transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+          </li>
+          <li className="relative group">
+            <a
+              href="#seccion5"
               className="transition-transform transform duration-300 group-hover:-translate-y-2"
             >
               Contacto
@@ -50,6 +60,7 @@ function App() {
 
       <Inicio />
       <SobreMi />
+      <Experiencia />
       <Proyectos />
       <Contacto />
     </div>

@@ -1,13 +1,12 @@
 // src/components/Section3.js
 import React from "react";
 
-const Section3 = () => {
+const Proyectos = () => {
   return (
-    <section id="seccion3" className="h-screen  text-white">
-      <h2>Sección 3</h2>
-      <p>Contenido de la sección 3...</p>
+    <section id="seccion4" className="h-screen  text-white">
+      <h2>Proyectos</h2>
     </section>
   );
 };
 
-export default Section3;
+export default Proyectos;
