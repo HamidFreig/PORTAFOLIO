@@ -1,5 +1,6 @@
 // src/components/Section3.js
 import React from "react";
+import { useState } from "react";
 import {
   FaReact,
   FaNodeJs,
@@ -12,6 +13,15 @@ import { DiCss3, DiHtml5 } from "react-icons/di";
 import { SiFirebase, SiPython, SiPowerbi } from "react-icons/si";
 
 const Section3 = () => {
+  const [hoverIndex, setHoverIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoverIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoverIndex(null);
+  };
   const skills = [
     { name: "React", icon: <FaReact className="text-4xl text-blue-500" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-4xl text-green-500" /> },
@@ -75,7 +85,16 @@ const Section3 = () => {
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center p-4 border border-gray-300 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseLeave={handleMouseLeave}
+                className={`flex flex-col items-center p-4 border border-gray-300 rounded-lg shadow-lg transition-all duration-300
+            hover:shadow-xl ${
+              hoverIndex === index
+                ? "scale-105 shadow-2xl"
+                : hoverIndex !== null
+                ? "opacity-50"
+                : ""
+            }`}
               >
                 <div className="mb-4">{skill.icon}</div>
                 <h3 className="text-xl font-semibold">{skill.name}</h3>
