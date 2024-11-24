@@ -54,7 +54,7 @@ export const Experiencia = () => {
                 </div>
 
                 {/* Texto a la derecha del logo en pantallas grandes, debajo en pantallas pequeñas */}
-                <div className="text-center sm:text-left w-full sm:w-[60%]">
+                <div className="text-center sm:text-left w-full sm:w-[60%] p-6">
                   <p className="text-lg font-bold">{experiencia.title}</p>
                   <p className="text-md font-bold">{experiencia.date}</p>
                   <p
