@@ -4,14 +4,14 @@ const experiencias = [
   {
     logo: "https://talentportugal.com/wp-content/uploads/2022/07/Management-solutions-talent-portugal-emprego-estagios-recrutamento-logo-1024x1024.png",
     title: "Business Consultant",
-    date: "Septiembre 2023 - Actualidad",
+    date: "Septiembre 2024 - Actualidad",
     description:
       "Como Business Consultant, me especialicé en la gestión de problemas de entidades, ayudando a las empresas a resolver conflictos y optimizar procesos internos mediante un enfoque estratégico en la toma de decisiones y la implementación de soluciones adaptadas a sus necesidades comerciales.",
   },
   {
     logo: "https://media.licdn.com/dms/image/v2/D560BAQEC5XSVRVtCcw/company-logo_200_200/company-logo_200_200/0/1706544437787/socius_arquitectura_y_plataformas_tecnologicas_logo?e=2147483647&v=beta&t=xk1SFrwwHYyQoeV445KGMzYu2KaccVlAy4dyY6KTK18",
     title: "Practica Profesional FullStack",
-    date: "Enero 2023 - Abril 2023",
+    date: "Enero 2024 - Abril 2024",
     description:
       "Como Desarrollador Fullstack, me encargué de crear soluciones web completas, trabajando tanto en el frontend como en el backend. Utilicé React para desarrollar interfaces de usuario interactivas y dinámicas, y NestJS para construir APIs robustas y escalables. Integré estas soluciones con bases de datos MySQL para gestionar y procesar información de manera eficiente, asegurando una experiencia de usuario fluida y un manejo eficaz de los datos.",
   },
