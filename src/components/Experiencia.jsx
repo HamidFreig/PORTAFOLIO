@@ -41,7 +41,7 @@ export const Experiencia = () => {
             <li
               key={index}
               className="mt-4 p-4 rounded-xl shadow-lg w-full"
-              style={{ height: "auto", minHeight: "350px" }}
+              style={{ height: "auto", minHeight: "250px" }}
             >
               <div className="flex flex-col sm:flex-row justify-center items-center h-full">
                 {/* Contenedor de la imagen, ajustado para pantalla grande y pequeña */}

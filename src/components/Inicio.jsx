@@ -4,6 +4,7 @@ import fotoPerfil from "../img/foto-perfil2.jpg";
 import Typewriter from "react-typewriter-effect";
 import { VscGithub } from "react-icons/vsc";
 import { CiLinkedin } from "react-icons/ci";
+import { FaFileDownload } from "react-icons/fa";
 
 const Section2 = () => {
   const [fontSize, setFontSize] = useState("3rem"); // Tamaño por defecto
@@ -65,6 +66,14 @@ const Section2 = () => {
               rel="noopener noreferrer" // Añade seguridad cuando usas target="_blank"
             >
               <CiLinkedin className="text-[50px] ml-2 lg:text-[80px] cursor-pointer hover:text-gray-500" />
+            </a>
+            <a
+              href="/HamidFreigCv.pdf" // Ruta relativa desde la carpeta public
+              download="HamidFreigCV.pdf" // Nombre del archivo cuando se descargue
+            >
+              <button className="h-[40px]  md:h-[60px] ml-2 w-auto px-6 border-solid border-white border-2 rounded-lg cursor-pointer font-bold hover:text-gray-500 flex items-center justify-center">
+                Descargar CV
+              </button>
             </a>
           </div>
         </div>

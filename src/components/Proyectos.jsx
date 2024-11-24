@@ -48,15 +48,15 @@ const Proyectos = () => {
       id="seccion4"
       className="h-auto text-white p-6 flex flex-col items-center"
     >
-      <p className="text-xl lg:text-4xl font-bold mb-4 text-center  p-2 w-full lg:w-[1000px]">
+      <p className="text-xl lg:text-4xl font-bold mb-4 text-center p-2 w-full lg:w-[1000px]">
         &lt; Mis Proyectos /&gt;
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center w-full mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-[1200px]">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between items-center w-[90%] max-w-[1000px] border border-white rounded-md transform transition duration-300 ease-in-out hover:scale-105 hover:bg-opacity-80 hover:opacity-70"
+            className="flex flex-col justify-between items-center w-full max-w-[350px] mx-auto border border-white rounded-md transform transition duration-300 ease-in-out hover:scale-105 hover:bg-opacity-80 hover:opacity-70"
           >
             {/* Imagen a la izquierda */}
             <div className="w-full h-[200px] sm:h-[250px] md:h-[300px]">
