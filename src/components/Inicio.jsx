@@ -28,12 +28,12 @@ const Section2 = () => {
   }, []);
 
   return (
-    <section id="seccion1" className="h-screen  text-white">
-      <div className="grid h-screen lg:grid-cols-2 md:grid-cols-1 ">
-        <div className="flex flex-col justify-center items-center bg-black text-white">
+    <section id="seccion1" className="h-screen text-white">
+      <div className="grid h-screen lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
+        <div className="flex flex-col justify-center items-center bg-black text-white px-6 sm:px-4">
           <div className="flex flex-col justify-center items-center w-full">
-            <p className=" text-xl lg:text-3xl m-4  ">&lt; Hola Mundo /&gt;</p>
-            <p className=" text-3xl lg:text-5xl ">Soy Hamid Freig,</p>
+            <p className="text-xl lg:text-3xl m-4">&lt; Hola Mundo /&gt;</p>
+            <p className="text-3xl lg:text-5xl">Soy Hamid Freig,</p>
             <Typewriter
               textStyle={{
                 fontFamily: "Arial",
@@ -43,7 +43,7 @@ const Section2 = () => {
               }}
               startDelay={100}
               cursorColor="white"
-              multiText={["FrontEnd.", "Backend.", "Desarrollador FullStack."]}
+              multiText={["FrontEnd.", "Backend.", "FullStack."]}
               multiTextLoop={true} // Asegura que el loop esté activado
               multiTextDelay={1500} // Tiempo de espera entre textos
               typeSpeed={100} // Velocidad de escritura
@@ -51,7 +51,7 @@ const Section2 = () => {
               textSizeClass="text-3xl sm:text-xl lg:text-5xl"
             />
           </div>
-          <div className="inline-flex justify-center items-center">
+          <div className="inline-flex justify-center items-center mt-4">
             <a
               href="https://github.com/HamidFreig" // Coloca aquí tu enlace de GitHub
               target="_blank" // Abre el enlace en una nueva pestaña
@@ -60,19 +60,19 @@ const Section2 = () => {
               <VscGithub className="text-[40px] lg:text-[60px] cursor-pointer hover:text-gray-500" />
             </a>
             <a
-              href="https://www.linkedin.com/in/hamid-freig-0b33a926b/" // Coloca aquí tu enlace de GitHub
+              href="https://www.linkedin.com/in/hamid-freig-0b33a926b/" // Coloca aquí tu enlace de LinkedIn
               target="_blank" // Abre el enlace en una nueva pestaña
               rel="noopener noreferrer" // Añade seguridad cuando usas target="_blank"
             >
-              <CiLinkedin className=" text-[50px] ml-2 lg:text-[80px]  cursor-pointer hover:text-gray-500" />
+              <CiLinkedin className="text-[50px] ml-2 lg:text-[80px] cursor-pointer hover:text-gray-500" />
             </a>
           </div>
         </div>
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center">
           <img
             src={fotoPerfil}
             alt="Foto de perfil"
-            className="rounded-full w-[300px] lg:w-[450px]"
+            className="rounded-full w-[300px] sm:w-[250px] md:w-[350px] lg:w-[450px] object-cover"
           />
         </div>
       </div>
