@@ -1,4 +1,3 @@
-// src/components/Section2.js
 import { React, useEffect, useState } from "react";
 import fotoPerfil from "../img/foto-perfil2.jpg";
 import Typewriter from "react-typewriter-effect";
