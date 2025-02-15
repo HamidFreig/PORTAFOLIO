@@ -1,4 +1,4 @@
-Link: [https://portafolio-chi-lime.vercel.app/]
+Link: https://portafolio-omega-red.vercel.app/
 
 # Portafolio Personal
 Este proyecto es un Portafolio Personal desarrollado para presentar de manera profesional mi experiencia, habilidades y proyectos. Es una herramienta que permite centralizar y visualizar información clave sobre mi carrera y facilitar el contacto con posibles colaboradores, empleadores o clientes.
